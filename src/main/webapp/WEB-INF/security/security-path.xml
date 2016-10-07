@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<security>
+    <constraint>
+        <url-pattern>^/shop/admin.*$</url-pattern>
+        <role>ADMIN</role>
+    </constraint>
+    <constraint>
+        <url-pattern>^/shop/admin/.*$</url-pattern>
+        <role>ADMIN</role>
+    </constraint>
+    <constraint>
+        <url-pattern>^/shop/orderPage.jsp$</url-pattern>
+        <role>USER</role>
+    </constraint>
+    <constraint>
+        <url-pattern>^/shop/successPage.jsp$</url-pattern>
+        <role>USER</role>
+    </constraint>
+    <constraint>
+        <url-pattern>^/shop/proceedOrder$</url-pattern>
+        <role>USER</role>
+    </constraint>
+</security>
